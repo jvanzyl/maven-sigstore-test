@@ -7,10 +7,6 @@
   </parent>
   <groupId>ca.vanzyl</groupId>
   <artifactId>staging-test</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>takari-jar</packaging>
-
-  <scm>
-    <tag>staging-test-1.0.0</tag>
-  </scm>
 </project>
