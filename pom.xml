@@ -1,6 +1,11 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.takari</groupId>
+    <artifactId>takari</artifactId>
+    <version>44</version>
+  </parent>
   <groupId>ca.vanzyl</groupId>
   <artifactId>staging-test</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
 </project>
