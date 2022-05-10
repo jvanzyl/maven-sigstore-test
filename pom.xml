@@ -3,7 +3,7 @@
   <parent>
     <groupId>io.takari</groupId>
     <artifactId>takari</artifactId>
-    <version>47</version>
+    <version>48</version>
   </parent>
   <groupId>ca.vanzyl</groupId>
   <artifactId>maven-sigstore-test</artifactId>
