@@ -10,17 +10,12 @@
   <version>0.0.7-SNAPSHOT</version>
   <packaging>takari-jar</packaging>
 
+  <properties>
+    <takari.release.gpg.skip>true</takari.release.gpg.skip>
+  </properties>
+
   <build>
     <plugins>
-      <plugin>
-        <groupId>io.takari.maven.plugins</groupId>
-        <artifactId>takari-lifecycle-plugin</artifactId>
-        <configuration>
-          <signArtifact>
-            <skip>true</skip>
-          </signArtifact>
-        </configuration>
-      </plugin>
       <plugin>
         <groupId>ca.vanzyl.maven.plugins</groupId>
         <artifactId>sigstore-maven-plugin</artifactId>
