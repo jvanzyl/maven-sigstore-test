@@ -21,7 +21,7 @@
           <plugin>
             <groupId>ca.vanzyl.maven.plugins</groupId>
             <artifactId>sigstore-maven-plugin</artifactId>
-            <version>0.0.3</version>
+            <version>0.0.5</version>
             <executions>
               <execution>
                 <configuration>
