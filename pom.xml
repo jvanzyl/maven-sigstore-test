@@ -38,8 +38,4 @@
       </build>
     </profile>
   </profiles>
-
-  <scm>
-    <tag>maven-sigstore-test-0.0.8</tag>
-  </scm>
 </project>
