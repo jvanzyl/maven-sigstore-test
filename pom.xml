@@ -10,13 +10,12 @@
   <version>0.0.8</version>
   <packaging>takari-jar</packaging>
 
-  <properties>
-    <takari.release.gpg.skip>true</takari.release.gpg.skip>
-  </properties>
-
   <profiles>
     <profile>
       <id>takari-release</id>
+      <properties>
+        <takari.release.gpg.skip>true</takari.release.gpg.skip>
+      </properties>
       <build>
         <plugins>
           <plugin>
