@@ -21,10 +21,9 @@
           <plugin>
             <groupId>ca.vanzyl.maven.plugins</groupId>
             <artifactId>sigstore-maven-plugin</artifactId>
-            <version>0.0.9</version>
+            <version>0.0.10</version>
             <executions>
               <execution>
-                <phase>verify</phase>
                 <configuration>
                   <mavenPgpSignatures>true</mavenPgpSignatures>
                 </configuration>
