@@ -24,6 +24,7 @@
             <version>0.0.9</version>
             <executions>
               <execution>
+                <phase>verify</phase>
                 <configuration>
                   <mavenPgpSignatures>true</mavenPgpSignatures>
                 </configuration>
