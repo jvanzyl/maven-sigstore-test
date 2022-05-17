@@ -19,11 +19,12 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>ca.vanzyl.maven.plugins</groupId>
+            <groupId>dev.sigstore.maven.plugins</groupId>
             <artifactId>sigstore-maven-plugin</artifactId>
-            <version>0.0.11</version>
+            <version>0.0.15</version>
             <executions>
               <execution>
+                <phase>install</phase>
                 <configuration>
                   <mavenPgpSignatures>true</mavenPgpSignatures>
                 </configuration>
