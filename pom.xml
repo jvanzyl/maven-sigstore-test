@@ -7,7 +7,7 @@
   </parent>
   <groupId>ca.vanzyl</groupId>
   <artifactId>maven-sigstore-test</artifactId>
-  <version>0.0.22-SNAPSHOT</version>
+  <version>0.0.22</version>
   <packaging>takari-jar</packaging>
 
   <profiles>
@@ -38,4 +38,8 @@
       </build>
     </profile>
   </profiles>
+
+  <scm>
+    <tag>maven-sigstore-test-0.0.22</tag>
+  </scm>
 </project>
