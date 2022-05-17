@@ -21,7 +21,7 @@
           <plugin>
             <groupId>dev.sigstore.maven.plugins</groupId>
             <artifactId>sigstore-maven-plugin</artifactId>
-            <version>0.0.15</version>
+            <version>0.0.16</version>
             <executions>
               <execution>
                 <phase>install</phase>
