@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ -f mvnw ]; then
+  ./mvnw -B clean release:prepare release:perform
+else
+  mvn -B clean release:prepare release:perform
+fi
+
+git push && git push --tags
